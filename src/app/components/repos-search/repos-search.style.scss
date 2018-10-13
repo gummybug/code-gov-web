@@ -6,6 +6,9 @@
   text-align: center;
 
   select {
+    height: 30px;
+    -webkit-appearance: menulist-button;
+
     @media screen and (max-width: $medium-screen) {
       max-width: 150px;
     }    
